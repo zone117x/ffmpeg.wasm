@@ -21,7 +21,7 @@ CONF_FLAGS=(
   --enable-demuxer=matroska,mov,avi,mpegps,mpegts,m2ts # demuxers for common video containers
   --enable-muxer=png,image2 # muxer for png file output
   --enable-parser=hevc,h264,mpegvideo # parse m2ts files from blu-ray discs correctly
-  --enable-filter=null,trim,scale,tonemap,colorspace,format
+  --enable-filter=null,trim,zscale,scale,tonemap,colorspace,format
   --enable-encoder=png # encoder for png output
   --enable-decoder=h264,vc1,mpeg2video,hevc # decoders for common video formats
   --enable-swscale # software scaler library (swscale)
