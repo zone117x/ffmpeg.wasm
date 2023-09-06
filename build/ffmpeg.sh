@@ -23,7 +23,7 @@ CONF_FLAGS=(
   --enable-parser=hevc,h264,mpegvideo # parse m2ts files from blu-ray discs correctly
   --enable-filter=null,trim,zscale,scale,tonemap,colorspace,format
   --enable-encoder=png # encoder for png output
-  --enable-decoder=h264,vc1,mpeg2video,mpegvideo,hevc # decoders for common video formats
+  --enable-decoder=h264,vc1,mpeg2video,mpegvideo,hevc,mpeg4 # decoders for common video formats
   --enable-swscale # software scaler library (swscale)
 
   # assign toolchains and extra flags
